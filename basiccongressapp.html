@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <title>Congress app 1</title>
+    <meta name="First itteration of my congress app" content="My first webpage">
+    <meta name="keywords" content="html tutorial template">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            height: 100vh;
+            background-color: #0074a8;
+        }
+
+        .menu {
+            width: 100px;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 20px;
+            background-color: white;
+            box-sizing: border-box;
+            border: 5px solid #ffc400;
+        }
+    </style>
+</head>
+
+<body>
+    <div class = "menu">
+        <p>Press the button for a new page.</p>
+        <button onclick="window.location.href='http://127.0.0.1:5500/congressapphistory.html'">History</button>
+        <button onclick="window.location.href='http://127.0.0.1:5500/congressappquiz.html'">Quiz</button>
+    </div>
+</body>
+</html>
